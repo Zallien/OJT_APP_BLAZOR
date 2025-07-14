@@ -1,0 +1,66 @@
+@page "/inventory"
+
+<div class="container-fluid d-flex flex-column h-100">
+    <div class="d-flex flex-row w-100 h-auto justify-content-center">
+        <Fields class="d-flex flex-column px-2 py-1 w-100">
+            <Fields class="w-100">
+                <Field ColumnSize="ColumnSize.Is9">
+                    <FieldLabel>iProduct ID:</FieldLabel>
+                    <TextEdit placeholder="0" Disabled></TextEdit>
+                </Field>
+                <Field ColumnSize="ColumnSize.Is3">
+                    <FieldLabel>iProduct ID:</FieldLabel>
+                    <TextEdit placeholder="0" Disabled></TextEdit>
+                </Field>
+            </Fields>
+                
+            <Fields class="py-0 my-0">
+                <Field ColumnSize="ColumnSize.Is5" class="py-0 my-0">
+                    <FieldLabel>iProduct ID:</FieldLabel>
+                    <TextEdit placeholder="0" Disabled></TextEdit>
+                </Field>
+                <Field ColumnSize="ColumnSize.Is5" class="py-0 my-0">
+                    <FieldLabel>iProduct ID:</FieldLabel>
+                    <TextEdit placeholder="0" Disabled></TextEdit>
+                </Field>
+                <Field ColumnSize="ColumnSize.Is2" class="py-0 my-0">
+                    <FieldLabel>iProduct ID:</FieldLabel>
+                    <TextEdit placeholder="0" Disabled></TextEdit>
+                </Field>
+            </Fields>
+        </Fields>
+    </div>
+
+    <div class="w-100 flex-grow-1 bg-white rounded-1 my-2">
+        <Table Class="bg-transparent">
+            <TableHeader>
+                <TableRow>
+                    <TableHeaderCell>#</TableHeaderCell>
+                    <TableHeaderCell>First Name</TableHeaderCell>
+                    <TableHeaderCell>Last Name</TableHeaderCell>
+                    <TableHeaderCell>Username</TableHeaderCell>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableRowHeader>1</TableRowHeader>
+                    <TableRowCell>Mark</TableRowCell>
+                    <TableRowCell>Otto</TableRowCell>
+                    <TableRowCell>@@mdo</TableRowCell>
+                </TableRow>
+                <TableRow>
+                    <TableRowHeader>2</TableRowHeader>
+                    <TableRowCell>Jacob</TableRowCell>
+                    <TableRowCell>Thornton</TableRowCell>
+                    <TableRowCell>@@fat</TableRowCell>
+                </TableRow>
+                <TableRow>
+                    <TableRowHeader>3</TableRowHeader>
+                    <TableRowCell>Larry</TableRowCell>
+                    <TableRowCell>the Bird</TableRowCell>
+                    <TableRowCell>@@twitter</TableRowCell>
+                </TableRow>
+            </TableBody>
+        </Table>
+    </div>
+</div>

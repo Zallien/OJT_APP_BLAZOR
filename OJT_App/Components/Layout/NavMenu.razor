@@ -1,0 +1,51 @@
+﻿<Bar Mode="BarMode.VerticalInline"
+     Breakpoint="Breakpoint.Desktop"
+     Background="Background.Light"
+     ThemeContrast="ThemeContrast.Light"
+     CollapseMode="BarCollapseMode.Small"
+     Class="bg-transparent">
+    <BarToggler />
+    <BarBrand>
+        <BarItem>
+            <BarLink To="#" Class="d-flex align-items-center justify-content-center">
+                <img src="images/transparentlogo.png" class="w-50" />
+
+            </BarLink>
+        </BarItem>
+    </BarBrand>
+    <BarMenu>
+        <BarItem Class="w-100 fs-5 fw-bold">
+            <BarLink To="#" Class="p-3">
+                <BarIcon IconName="IconName.Dashboard" />
+                Home
+            </BarLink>
+            <BarLink To="#" Class="p-3">
+                <BarIcon IconName="IconName.Store" />
+                Sale
+            </BarLink>
+            <BarDropdown>
+                <BarDropdownToggle Class="p-3">
+                    <BarIcon IconName="IconName.Laptop" />
+                    Inventory
+                </BarDropdownToggle>
+                <BarDropdownMenu>
+                    <BarDropdownItem To="Counter">
+                        Add/Buy Item
+                    </BarDropdownItem>
+                    <BarDropdownItem To="inventory">
+                        Adjust Item
+
+                    </BarDropdownItem>
+                </BarDropdownMenu>
+            </BarDropdown>
+
+        </BarItem>
+
+    </BarMenu>
+</Bar>
+
+
+@code{
+
+
+}

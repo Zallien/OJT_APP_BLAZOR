@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+
+
+
+<Layout Sider Class="container-fluid">
+    <LayoutSider Class="bg-white p-md-1">
+        <LayoutSiderContent>
+            <NavMenu/>
+        </LayoutSiderContent>
+    </LayoutSider>
+    <Layout Class="bg-polaris text-light">
+        <LayoutHeader Fixed class="p-3 bg-white fw-bold">
+            Home
+        </LayoutHeader>
+        <LayoutContent Class="p-2">
+            @Body
+        </LayoutContent>
+    </Layout>
+</Layout>
