@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\pages\\iteminventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\pages\\iteminventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\pages\\inventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,18 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,76 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "OJT_App\\Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "OJT_App\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ItemInventory.razor",
+              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\ItemInventory.razor",
+              "RelativeDocumentMoniker": "OJT_App\\Components\\Pages\\ItemInventory.razor",
+              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\ItemInventory.razor",
+              "RelativeToolTip": "OJT_App\\Components\\Pages\\ItemInventory.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T03:55:54.993Z",
+              "WhenOpened": "2025-07-14T07:04:05.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Inventory.razor",
               "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Inventory.razor",
               "RelativeDocumentMoniker": "OJT_App\\Components\\Pages\\Inventory.razor",
               "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Inventory.razor",
               "RelativeToolTip": "OJT_App\\Components\\Pages\\Inventory.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-14T03:55:43.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "OJT_App\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "OJT_App\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-14T03:54:06.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "OJT_App\\wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "OJT_App\\wwwroot\\css\\app.css",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-14T03:35:45.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "OJT_App\\Components\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "OJT_App\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-14T01:46:55.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "OJT_App\\Components\\Layout\\MainLayout.razor",

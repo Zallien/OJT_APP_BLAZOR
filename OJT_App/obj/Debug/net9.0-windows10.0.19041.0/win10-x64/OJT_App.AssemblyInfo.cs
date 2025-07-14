@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OJT_App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6a1e649e9cefbdde2f9967bd45a6afa5cbbde051")]
 [assembly: System.Reflection.AssemblyProductAttribute("OJT_App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OJT_App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

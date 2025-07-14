@@ -1,0 +1,48 @@
+﻿
+@page "/Iteminventory"
+
+<div class="container-fluid d-flex flex-column h-100">
+    <Fields>
+        <Field ColumnSize="ColumnSize.Is3">
+            <FieldLabel>Product Name:</FieldLabel>
+            <TextEdit Placeholder="Input Product Name..." />
+        </Field>
+        <Field ColumnSize="ColumnSize.Is7">
+            <FieldLabel>Product Name:</FieldLabel>
+            <TextEdit Placeholder="Input Product Name..." />
+        </Field>
+        <Field ColumnSize="ColumnSize.Is2">
+            <FieldLabel>Quantity:</FieldLabel>
+            <TextEdit Placeholder="Add Quantity..." />
+        </Field>
+        <Button Color="Color.Light" Class="d-block w-25 p-2 my-0 mx-auto fw-bold">Add Item</Button>
+    </Fields>
+
+    <div class="flex-grow-1 py-2">
+        <Table>
+            <TableHeader>
+                <TableRow>
+                    <TableHeaderCell>#</TableHeaderCell>
+                    <TableHeaderCell>Product ID</TableHeaderCell>
+                    <TableHeaderCell>Product Name</TableHeaderCell>
+                    <TableHeaderCell>Quantity</TableHeaderCell>
+                </TableRow>
+            </TableHeader>
+            <TableBody>
+                <TableRow>
+                    <TableRowHeader>1</TableRowHeader>
+                    <TableRowCell>SampleID</TableRowCell>
+                    <TableRowCell>SampleProduct</TableRowCell>
+                    <TableRowCell>100</TableRowCell>
+                </TableRow>
+            </TableBody>
+        </Table>
+    </div>
+</div>
+
+
+
+
+@code {
+
+}
