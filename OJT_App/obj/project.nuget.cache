@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ECZTDApncyM=",
+  "dgSpecHash": "8HpoVuhBN0Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\OJT_App.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250205002\\microsoft.windowsappsdk.1.6.250205002.nupkg.sha512",
+    "C:\\Users\\Dell Laptop\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\xamarin.android.glide\\4.16.0.11\\xamarin.android.glide.4.16.0.11.nupkg.sha512",
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.11\\xamarin.android.glide.annotations.4.16.0.11.nupkg.sha512",
     "C:\\Users\\Dell Laptop\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.11\\xamarin.android.glide.disklrucache.4.16.0.11.nupkg.sha512",

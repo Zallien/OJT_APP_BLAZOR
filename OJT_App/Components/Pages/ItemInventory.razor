@@ -1,40 +1,46 @@
 ﻿
+
 @page "/Iteminventory"
 
+@inject iProduct productservices
+
 <div class="container-fluid d-flex flex-column h-100">
-    <Fields>
+    @* <Fields>
+        <Field ColumnSize="ColumnSize.Is6">
+            <FieldLabel>Product Name:</FieldLabel>
+            <TextEdit Placeholder="Enter Product Name" @bind-="product.name"/>
+        </Field>
         <Field ColumnSize="ColumnSize.Is3">
-            <FieldLabel>Product Name:</FieldLabel>
-            <TextEdit Placeholder="Input Product Name..." />
-        </Field>
-        <Field ColumnSize="ColumnSize.Is7">
-            <FieldLabel>Product Name:</FieldLabel>
-            <TextEdit Placeholder="Input Product Name..." />
-        </Field>
-        <Field ColumnSize="ColumnSize.Is2">
             <FieldLabel>Quantity:</FieldLabel>
-            <TextEdit Placeholder="Add Quantity..." />
+            <TextEdit Placeholder="Enter Product Qty" @bind-="product.quantity"/>
         </Field>
-        <Button Color="Color.Light" Class="d-block w-25 p-2 my-0 mx-auto fw-bold">Add Item</Button>
-    </Fields>
+        <Field ColumnSize="ColumnSize.Is3">
+            <FieldLabel>Price:</FieldLabel>
+            <TextEdit Placeholder="Enter Product Price" @bind-="product.price"/>
+        </Field>
+        <Button Color="Color.Light" Class="d-block w-25 p-2 my-0 mx-auto fw-bold" onclick="AddProduct">Add Item</Button>
+    </Fields> *@
 
     <div class="flex-grow-1 py-2">
         <Table>
             <TableHeader>
                 <TableRow>
-                    <TableHeaderCell>#</TableHeaderCell>
-                    <TableHeaderCell>Product ID</TableHeaderCell>
                     <TableHeaderCell>Product Name</TableHeaderCell>
                     <TableHeaderCell>Quantity</TableHeaderCell>
+                    <TableHeaderCell>Price</TableHeaderCell>
                 </TableRow>
             </TableHeader>
             <TableBody>
-                <TableRow>
-                    <TableRowHeader>1</TableRowHeader>
-                    <TableRowCell>SampleID</TableRowCell>
-                    <TableRowCell>SampleProduct</TableRowCell>
-                    <TableRowCell>100</TableRowCell>
-                </TableRow>
+                @foreach (ProductModel item in products)
+                {
+                    <TableRow>
+                        <TableRowCell>@item.Productname</TableRowCell>
+                        <TableRowCell>@item.Quantity</TableRowCell>
+                        <TableRowCell>@item.price</TableRowCell>
+                    </TableRow>
+                }
+
+
             </TableBody>
         </Table>
     </div>
@@ -44,5 +50,20 @@
 
 
 @code {
+    List<ProductModel> products = new List<ProductModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Getdata();
+
+    }
+
+    private async Task Getdata()
+    {
+        products = await productservices.GetProducts();
+
+    }
+
+
 
 }

@@ -2,6 +2,7 @@
 using Blazorise;
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
+using OJT_App.Service;
 
 
 
@@ -34,6 +35,7 @@ namespace OJT_App
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<iProduct, ProductServices>();
 
             return builder.Build();
         }
