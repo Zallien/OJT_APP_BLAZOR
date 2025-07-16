@@ -16,6 +16,8 @@
   <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildMultiTargeting\Microsoft.AspNetCore.Components.WebView.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildMultiTargeting\Microsoft.AspNetCore.Components.WebView.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\1.8.0\buildMultiTargeting\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.8.0\buildMultiTargeting\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildMultiTargeting\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildMultiTargeting\Blazorise.SpinKit.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildMultiTargeting\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildMultiTargeting\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildMultiTargeting\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildMultiTargeting\Blazorise.Icons.FontAwesome.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildMultiTargeting\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildMultiTargeting\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
@@ -27,6 +29,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
@@ -38,6 +42,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
@@ -49,6 +55,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
@@ -61,6 +69,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview\9.0.0\buildTransitive\Microsoft.AspNetCore.Components.WebView.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\9.0.51\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\1.8.0\buildTransitive\Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>

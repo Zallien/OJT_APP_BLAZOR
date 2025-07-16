@@ -10,6 +10,7 @@ namespace OJT_App.Service
     public interface iProduct
     {
         Task<List<ProductModel>> GetProducts();
+        Task<Boolean> AddProdctItem(ProductInsert prod);
 
 
     }

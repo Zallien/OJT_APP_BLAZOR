@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,7 @@ namespace OJT_App.Service
         public async Task<List<ProductModel>> GetProducts()
         {
             var products = new List<ProductModel>();
-
+                
             try
             {
                 using(var httpclient = new HttpClient())
@@ -37,6 +38,38 @@ namespace OJT_App.Service
             }
 
             return products;
+
+        }
+
+        public async Task<Boolean> AddProdctItem(ProductInsert prod)
+        {
+            bool ItemAdded = false;
+
+
+            try
+            {
+
+                using(var httpclient = new HttpClient())
+                {
+                    string url = $"{_baseURL}/api/Product/InsertProduct";
+                    var apiresponse = await httpclient.PostAsJsonAsync(url,prod);
+
+                    if (apiresponse.StatusCode == HttpStatusCode.OK)
+                    {
+                        ItemAdded = true;
+                    }
+                }
+
+
+            }
+            catch (Exception e)
+            {
+
+                
+            }
+
+            return ItemAdded;
+
 
         }
     }

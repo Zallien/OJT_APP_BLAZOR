@@ -75,6 +75,14 @@
               "target": "Package",
               "version": "[1.8.0, )"
             },
+            "Blazorise.LoadingIndicator": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.SpinKit": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[9.0.51, )"
@@ -127,6 +135,14 @@
               "version": "[1.8.0, )"
             },
             "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.LoadingIndicator": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.SpinKit": {
               "target": "Package",
               "version": "[1.8.0, )"
             },
@@ -185,6 +201,14 @@
               "target": "Package",
               "version": "[1.8.0, )"
             },
+            "Blazorise.LoadingIndicator": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.SpinKit": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebView.Maui": {
               "target": "Package",
               "version": "[9.0.51, )"
@@ -238,6 +262,14 @@
               "version": "[1.8.0, )"
             },
             "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.LoadingIndicator": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.SpinKit": {
               "target": "Package",
               "version": "[1.8.0, )"
             },

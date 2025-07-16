@@ -29,6 +29,10 @@ wwwroot\_content\Blazorise.Icons.FontAwesome\v6\webfonts\fa-solid-900.ttf
 wwwroot\_content\Blazorise.Icons.FontAwesome\v6\webfonts\fa-solid-900.woff2
 wwwroot\_content\Blazorise.Icons.FontAwesome\v6\webfonts\fa-v4compatibility.ttf
 wwwroot\_content\Blazorise.Icons.FontAwesome\v6\webfonts\fa-v4compatibility.woff2
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.css
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.min.css
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.css
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.min.css
 wwwroot\_content\Blazorise\blazorise.css
 wwwroot\_content\Blazorise\blazorise.min.css
 wwwroot\_content\Blazorise\breakpoint.js
@@ -73,6 +77,7 @@ Components\Layout\NavMenu.razor.css
 wwwroot\_content\Blazorise\tooltip.js.gz
 wwwroot\_content\Blazorise\vendors\floating-ui.js.gz
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-solid-900.svg.gz
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.min.css.gz
 wwwroot\_content\Blazorise\filePicker.js.gz
 wwwroot\css\bootstrap\bootstrap.min.css.gz
 wwwroot\_content\Blazorise.Icons.FontAwesome\v6\css\all.min.css.gz
@@ -81,6 +86,7 @@ wwwroot\_content\Blazorise\validators\DateTimeMaskValidator.js.gz
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-brands-400.svg.gz
 wwwroot\_content\Blazorise\floatingUi.js.gz
 wwwroot\_content\Blazorise\colorPicker.js.gz
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.min.css.gz
 wwwroot\_content\Blazorise\vendors\inputmask.js.gz
 wwwroot\_content\Blazorise\vendors\Behave.js.gz
 wwwroot\_content\Blazorise\vendors\jsencrypt.js.gz
@@ -90,6 +96,7 @@ wwwroot\_content\Blazorise\breakpoint.js.gz
 wwwroot\_content\Blazorise\inputMask.js.gz
 wwwroot\_content\Blazorise\theme.js.gz
 wwwroot\OJT_App.styles.css.gz
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.css.gz
 wwwroot\css\app.css.gz
 wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.css.gz
 wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.min.css.gz
@@ -110,9 +117,11 @@ wwwroot\_content\Blazorise\fileEdit.js.gz
 wwwroot\_content\Blazorise\blazorise.min.css.gz
 wwwroot\_content\Blazorise\numericPicker.js.gz
 wwwroot\index.html.gz
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.css.gz
 wwwroot\_content\Blazorise\tooltip.js.br
 wwwroot\_content\Blazorise\vendors\floating-ui.js.br
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-solid-900.svg.br
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.min.css.br
 wwwroot\_content\Blazorise\filePicker.js.br
 wwwroot\css\bootstrap\bootstrap.min.css.br
 wwwroot\_content\Blazorise.Icons.FontAwesome\v6\css\all.min.css.br
@@ -121,6 +130,7 @@ wwwroot\_content\Blazorise\validators\DateTimeMaskValidator.js.br
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-brands-400.svg.br
 wwwroot\_content\Blazorise\floatingUi.js.br
 wwwroot\_content\Blazorise\colorPicker.js.br
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.min.css.br
 wwwroot\_content\Blazorise\vendors\inputmask.js.br
 wwwroot\_content\Blazorise\vendors\Behave.js.br
 wwwroot\_content\Blazorise\vendors\jsencrypt.js.br
@@ -130,6 +140,7 @@ wwwroot\_content\Blazorise\breakpoint.js.br
 wwwroot\_content\Blazorise\inputMask.js.br
 wwwroot\_content\Blazorise\theme.js.br
 wwwroot\OJT_App.styles.css.br
+wwwroot\_content\Blazorise.LoadingIndicator\blazorise.loadingindicator.css.br
 wwwroot\css\app.css.br
 wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.css.br
 wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.min.css.br
@@ -150,6 +161,7 @@ wwwroot\_content\Blazorise\fileEdit.js.br
 wwwroot\_content\Blazorise\blazorise.min.css.br
 wwwroot\_content\Blazorise\numericPicker.js.br
 wwwroot\index.html.br
+wwwroot\_content\Blazorise.SpinKit\blazorise.spinkit.css.br
 wwwroot\_content\Blazorise.Bootstrap5\modal.js.br
 wwwroot\_content\Blazorise\vendors\Pickr.js.br
 wwwroot\_content\Blazorise\validators\NumericMaskValidator.js.br

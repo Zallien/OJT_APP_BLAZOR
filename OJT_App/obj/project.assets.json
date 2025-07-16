@@ -78,6 +78,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "GoogleGson/2.11.0.5": {
         "type": "package",
         "dependencies": {
@@ -2799,6 +2849,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "GoogleGson/2.11.0.5": {
@@ -5524,6 +5624,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "GoogleGson/2.11.0.5": {
         "type": "package",
         "dependencies": {
@@ -8245,6 +8395,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "GoogleGson/2.11.0.5": {
@@ -10970,6 +11170,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "GoogleGson/2.11.0.5": {
         "type": "package",
         "dependencies": {
@@ -13691,6 +13941,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "GoogleGson/2.11.0.5": {
@@ -16416,6 +16716,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -17219,6 +17569,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -18026,6 +18426,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -18829,6 +19279,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -19636,6 +20136,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -20439,6 +20989,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -21246,6 +21846,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -22049,6 +22699,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -22856,6 +23556,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -23659,6 +24409,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -24466,6 +25266,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -25271,6 +26121,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -26074,6 +26974,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -27091,6 +28041,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -28062,6 +29062,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -29037,6 +30087,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -30010,6 +31110,56 @@
           "lib/net9.0/Blazorise.Licensing.dll": {}
         }
       },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -30981,6 +32131,56 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Licensing.dll": {}
+        }
+      },
+      "Blazorise.LoadingIndicator/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.LoadingIndicator.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.LoadingIndicator.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.LoadingIndicator.props": {}
+        }
+      },
+      "Blazorise.SpinKit/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.SpinKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.SpinKit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.SpinKit.props": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/9.0.6": {
@@ -32045,6 +33245,62 @@
         "lib/net7.0/Blazorise.Licensing.dll",
         "lib/net8.0/Blazorise.Licensing.dll",
         "lib/net9.0/Blazorise.Licensing.dll"
+      ]
+    },
+    "Blazorise.LoadingIndicator/1.8.0": {
+      "sha512": "/lA2d8fARC3PJRHKhNjY5G2qSBYhBt+44jWE92C+25UpLwko/sYFM9Shzf00w6PQ1BG9Kcg1/4suCVpCxzcRYw==",
+      "type": "package",
+      "path": "blazorise.loadingindicator/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.loadingindicator.1.8.0.nupkg.sha512",
+        "blazorise.loadingindicator.nuspec",
+        "build/Blazorise.LoadingIndicator.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.LoadingIndicator.props",
+        "buildTransitive/Blazorise.LoadingIndicator.props",
+        "lib/net6.0/Blazorise.LoadingIndicator.dll",
+        "lib/net6.0/Blazorise.LoadingIndicator.xml",
+        "lib/net7.0/Blazorise.LoadingIndicator.dll",
+        "lib/net7.0/Blazorise.LoadingIndicator.xml",
+        "lib/net8.0/Blazorise.LoadingIndicator.dll",
+        "lib/net8.0/Blazorise.LoadingIndicator.xml",
+        "lib/net9.0/Blazorise.LoadingIndicator.dll",
+        "lib/net9.0/Blazorise.LoadingIndicator.xml",
+        "staticwebassets/blazorise.loadingindicator.css",
+        "staticwebassets/blazorise.loadingindicator.min.css"
+      ]
+    },
+    "Blazorise.SpinKit/1.8.0": {
+      "sha512": "tFqUM6Zak0IvNGkOvK5Klffc3I2hjJPVG44JF92Zmjz8WXVuRHrVGY4/dtxozIZnCriES/dPDw3chlKgdanBJQ==",
+      "type": "package",
+      "path": "blazorise.spinkit/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.spinkit.1.8.0.nupkg.sha512",
+        "blazorise.spinkit.nuspec",
+        "build/Blazorise.SpinKit.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.SpinKit.props",
+        "buildTransitive/Blazorise.SpinKit.props",
+        "lib/net6.0/Blazorise.SpinKit.dll",
+        "lib/net6.0/Blazorise.SpinKit.xml",
+        "lib/net7.0/Blazorise.SpinKit.dll",
+        "lib/net7.0/Blazorise.SpinKit.xml",
+        "lib/net8.0/Blazorise.SpinKit.dll",
+        "lib/net8.0/Blazorise.SpinKit.xml",
+        "lib/net9.0/Blazorise.SpinKit.dll",
+        "lib/net9.0/Blazorise.SpinKit.xml",
+        "staticwebassets/blazorise.spinkit.css",
+        "staticwebassets/blazorise.spinkit.min.css"
       ]
     },
     "GoogleGson/2.11.0.5": {
@@ -36464,6 +37720,8 @@
     "net9.0-android35.0": [
       "Blazorise.Bootstrap5 >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
+      "Blazorise.LoadingIndicator >= 1.8.0",
+      "Blazorise.SpinKit >= 1.8.0",
       "Microsoft.AspNetCore.Components.WebView.Maui >= 9.0.51",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.51",
@@ -36473,6 +37731,8 @@
     "net9.0-ios18.5": [
       "Blazorise.Bootstrap5 >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
+      "Blazorise.LoadingIndicator >= 1.8.0",
+      "Blazorise.SpinKit >= 1.8.0",
       "Microsoft.AspNetCore.Components.WebView.Maui >= 9.0.51",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.51",
@@ -36482,6 +37742,8 @@
     "net9.0-maccatalyst18.5": [
       "Blazorise.Bootstrap5 >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
+      "Blazorise.LoadingIndicator >= 1.8.0",
+      "Blazorise.SpinKit >= 1.8.0",
       "Microsoft.AspNetCore.Components.WebView.Maui >= 9.0.51",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.51",
@@ -36491,6 +37753,8 @@
     "net9.0-windows10.0.19041": [
       "Blazorise.Bootstrap5 >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
+      "Blazorise.LoadingIndicator >= 1.8.0",
+      "Blazorise.SpinKit >= 1.8.0",
       "Microsoft.AspNetCore.Components.WebView.Maui >= 9.0.51",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.51",
@@ -36572,6 +37836,14 @@
             "target": "Package",
             "version": "[1.8.0, )"
           },
+          "Blazorise.LoadingIndicator": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.SpinKit": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
             "version": "[9.0.51, )"
@@ -36624,6 +37896,14 @@
             "version": "[1.8.0, )"
           },
           "Blazorise.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.LoadingIndicator": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.SpinKit": {
             "target": "Package",
             "version": "[1.8.0, )"
           },
@@ -36682,6 +37962,14 @@
             "target": "Package",
             "version": "[1.8.0, )"
           },
+          "Blazorise.LoadingIndicator": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.SpinKit": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
             "version": "[9.0.51, )"
@@ -36735,6 +38023,14 @@
             "version": "[1.8.0, )"
           },
           "Blazorise.Icons.FontAwesome": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.LoadingIndicator": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.SpinKit": {
             "target": "Package",
             "version": "[1.8.0, )"
           },
