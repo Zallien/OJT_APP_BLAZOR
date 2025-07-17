@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildMultiTargeting\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildMultiTargeting\Blazorise.SpinKit.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildMultiTargeting\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildMultiTargeting\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildMultiTargeting\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildMultiTargeting\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildMultiTargeting\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildMultiTargeting\Blazorise.DataGrid.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildMultiTargeting\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildMultiTargeting\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -32,6 +33,7 @@
     <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -45,6 +47,7 @@
     <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -58,6 +61,7 @@
     <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0-windows10.0.19041.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
@@ -72,6 +76,7 @@
     <Import Project="$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props" Condition="Exists('$(NuGetPackageRoot)blazorise.spinkit\1.8.0\buildTransitive\Blazorise.SpinKit.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props" Condition="Exists('$(NuGetPackageRoot)blazorise.loadingindicator\1.8.0\buildTransitive\Blazorise.LoadingIndicator.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props" Condition="Exists('$(NuGetPackageRoot)blazorise.icons.fontawesome\1.8.0\buildTransitive\Blazorise.Icons.FontAwesome.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props" Condition="Exists('$(NuGetPackageRoot)blazorise.datagrid\1.8.0\buildTransitive\Blazorise.DataGrid.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap5\1.8.0\buildTransitive\Blazorise.Bootstrap5.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net9.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">

@@ -10,6 +10,7 @@
       "OJT_App/1.0": {
         "dependencies": {
           "Blazorise.Bootstrap5": "1.8.0",
+          "Blazorise.DataGrid": "1.8.0",
           "Blazorise.Icons.FontAwesome": "1.8.0",
           "Blazorise.LoadingIndicator": "1.8.0",
           "Blazorise.SpinKit": "1.8.0",
@@ -59,6 +60,20 @@
         },
         "runtime": {
           "lib/net9.0/Blazorise.Bootstrap5.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
             "assemblyVersion": "1.8.0.0",
             "fileVersion": "1.8.0.0"
           }
@@ -759,6 +774,13 @@
       "sha512": "sha512-POrkSf4x82pITS8ofRm70+kjK6WpwySOOSkGKFoS+S5a/V+r+3dS9JjET3/Tk/oRr/6lkekAEWdFOLhMqP+eqw==",
       "path": "blazorise.bootstrap5/1.8.0",
       "hashPath": "blazorise.bootstrap5.1.8.0.nupkg.sha512"
+    },
+    "Blazorise.DataGrid/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xAlQ0/14AhIWVIVi6sGH6C4oT5z2km4wtsivCQ1CJMSi3vUKvJ5b5VTUKt6fR2XL6a+aXZDoc7oouZc1uf/wEA==",
+      "path": "blazorise.datagrid/1.8.0",
+      "hashPath": "blazorise.datagrid.1.8.0.nupkg.sha512"
     },
     "Blazorise.Icons.FontAwesome/1.8.0": {
       "type": "package",

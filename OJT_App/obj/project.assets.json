@@ -48,6 +48,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -2819,6 +2844,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -5594,6 +5644,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -8365,6 +8440,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -11140,6 +11240,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -13911,6 +14036,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -16686,6 +16836,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -17539,6 +17714,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -18396,6 +18596,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -19249,6 +19474,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -20106,6 +20356,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -20959,6 +21234,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -21816,6 +22116,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -22669,6 +22994,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -23526,6 +23876,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -24379,6 +24754,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -25236,6 +25636,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -26091,6 +26516,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -26944,6 +27394,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -28011,6 +28486,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -29032,6 +29532,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -30057,6 +30582,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -31080,6 +31630,31 @@
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
         }
       },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
+        }
+      },
       "Blazorise.Icons.FontAwesome/1.8.0": {
         "type": "package",
         "dependencies": {
@@ -32101,6 +32676,31 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/Blazorise.Bootstrap5.props": {}
+        }
+      },
+      "Blazorise.DataGrid/1.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorise": "1.8.0",
+          "Microsoft.AspNetCore.Components": "9.0.6",
+          "Microsoft.AspNetCore.Components.Web": "9.0.6",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.6"
+        },
+        "compile": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Blazorise.DataGrid.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorise.DataGrid.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorise.DataGrid.props": {}
         }
       },
       "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -33179,6 +33779,33 @@
         "staticwebassets/blazorise.bootstrap5.min.css",
         "staticwebassets/modal.js",
         "staticwebassets/tooltip.js"
+      ]
+    },
+    "Blazorise.DataGrid/1.8.0": {
+      "sha512": "xAlQ0/14AhIWVIVi6sGH6C4oT5z2km4wtsivCQ1CJMSi3vUKvJ5b5VTUKt6fR2XL6a+aXZDoc7oouZc1uf/wEA==",
+      "type": "package",
+      "path": "blazorise.datagrid/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorise.png",
+        "LICENSE.md",
+        "blazorise.datagrid.1.8.0.nupkg.sha512",
+        "blazorise.datagrid.nuspec",
+        "build/Blazorise.DataGrid.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorise.DataGrid.props",
+        "buildTransitive/Blazorise.DataGrid.props",
+        "lib/net6.0/Blazorise.DataGrid.dll",
+        "lib/net6.0/Blazorise.DataGrid.xml",
+        "lib/net7.0/Blazorise.DataGrid.dll",
+        "lib/net7.0/Blazorise.DataGrid.xml",
+        "lib/net8.0/Blazorise.DataGrid.dll",
+        "lib/net8.0/Blazorise.DataGrid.xml",
+        "lib/net9.0/Blazorise.DataGrid.dll",
+        "lib/net9.0/Blazorise.DataGrid.xml",
+        "staticwebassets/datagrid.js"
       ]
     },
     "Blazorise.Icons.FontAwesome/1.8.0": {
@@ -37719,6 +38346,7 @@
   "projectFileDependencyGroups": {
     "net9.0-android35.0": [
       "Blazorise.Bootstrap5 >= 1.8.0",
+      "Blazorise.DataGrid >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
       "Blazorise.LoadingIndicator >= 1.8.0",
       "Blazorise.SpinKit >= 1.8.0",
@@ -37730,6 +38358,7 @@
     ],
     "net9.0-ios18.5": [
       "Blazorise.Bootstrap5 >= 1.8.0",
+      "Blazorise.DataGrid >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
       "Blazorise.LoadingIndicator >= 1.8.0",
       "Blazorise.SpinKit >= 1.8.0",
@@ -37741,6 +38370,7 @@
     ],
     "net9.0-maccatalyst18.5": [
       "Blazorise.Bootstrap5 >= 1.8.0",
+      "Blazorise.DataGrid >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
       "Blazorise.LoadingIndicator >= 1.8.0",
       "Blazorise.SpinKit >= 1.8.0",
@@ -37752,6 +38382,7 @@
     ],
     "net9.0-windows10.0.19041": [
       "Blazorise.Bootstrap5 >= 1.8.0",
+      "Blazorise.DataGrid >= 1.8.0",
       "Blazorise.Icons.FontAwesome >= 1.8.0",
       "Blazorise.LoadingIndicator >= 1.8.0",
       "Blazorise.SpinKit >= 1.8.0",
@@ -37832,6 +38463,10 @@
             "target": "Package",
             "version": "[1.8.0, )"
           },
+          "Blazorise.DataGrid": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Blazorise.Icons.FontAwesome": {
             "target": "Package",
             "version": "[1.8.0, )"
@@ -37892,6 +38527,10 @@
         "targetAlias": "net9.0-ios",
         "dependencies": {
           "Blazorise.Bootstrap5": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.DataGrid": {
             "target": "Package",
             "version": "[1.8.0, )"
           },
@@ -37958,6 +38597,10 @@
             "target": "Package",
             "version": "[1.8.0, )"
           },
+          "Blazorise.DataGrid": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
           "Blazorise.Icons.FontAwesome": {
             "target": "Package",
             "version": "[1.8.0, )"
@@ -38019,6 +38662,10 @@
         "targetAlias": "net9.0-windows10.0.19041.0",
         "dependencies": {
           "Blazorise.Bootstrap5": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Blazorise.DataGrid": {
             "target": "Package",
             "version": "[1.8.0, )"
           },

@@ -3,46 +3,23 @@
 @page "/Iteminventory"
 @inject iProduct productservices
 
-
-
 <div class="container-fluid d-flex flex-column h-100 py-2">
-    <LoadingIndicator @bind-Visible="@isLoading">
-        <ChildContent>
-             <Field class="d-flex flex-row justify-content-between px-1 my-0 pt-2">
-        @* <Button class="d-block btn btn-success w-auto px-4 " Clicked="@ShowAddModal">Add</Button> *@
-        <TextEdit Placeholder="Search.." class="w-50" />
-    </Field>
+        <Field class="d-flex flex-row justify-content-between px-1 my-0 pt-2">
+            <Button class="d-block btn btn-success w-auto px-4 " Clicked="@ShowAddModal">Add</Button>
+            @* <Button class="d-block btn btn-success w-auto px-4 " Clicked="@RefreshDataGrid">Refresh</Button> *@
+            <TextEdit Placeholder="Search.." class="w-50" />
+        </Field>
 
-    <div class="flex-grow-1 my-0 rounded overflow-auto mt-2 bg-white">
-        <Table class="rounded" Striped Hoverable ResponsiveMode="TableResponsiveMode.Mobile">
-            <TableHeader>
+        <div class="mt-2">
+            <Table>
 
-                <TableRow>
-                    <TableHeaderCell class="w-auto">Product Name</TableHeaderCell>
-                    <TableHeaderCell class="w-percent-10">Quantity</TableHeaderCell>
-                    <TableHeaderCell class="w-percent-10">Price</TableHeaderCell>
-                    <TableHeaderCell class="w-25">Actions</TableHeaderCell>
-                </TableRow>
-            </TableHeader>
-            <TableBody>
-                @foreach (ProductModel item in products)
-                {
-                    <TableRow VerticalAlignment="VerticalAlignment.Middle">
-                        <TableRowCell>@item.Productname</TableRowCell>
-                        <TableRowCell>@item.Quantity</TableRowCell>
-                        <TableRowCell>@item.price</TableRowCell>
-                        <TableRowCell>
-                            <Button class="btn btn-info">Edit</Button>
-                            <Button class="btn btn-danger">Delete</Button>
-                        </TableRowCell>
-                    </TableRow>
-                }
+            </Table>
+        </div>
 
-            </TableBody>
-        </Table>
-    </div>
+    
 
-   @*  <Modal @ref="modalref">
+
+    <Modal @ref="modalref">
         <ModalContent Centered>
             <ModalHeader>
                 <ModalTitle class="text-dark fw-bold">Add Item</ModalTitle>
@@ -62,90 +39,107 @@
                 <Button Color="Color.Success" Clicked="@AddNewItem">Add Item</Button>
             </ModalFooter>
         </ModalContent>
-    </Modal> *@
+    </Modal>
 
-    </ChildContent>
-        <IndicatorTemplate>
-            <Div Position="Position.Fixed.Start.Is50.Top.Is50">
-                <SpinKit Type="SpinKitType.Grid" Size="100px" Centered/>
-            </Div>
-        </IndicatorTemplate>
-    </LoadingIndicator>
+    <Modal Closing="@ClosingOKModal" @ref="OKModalref" Centered>
+        <ModalContent Centered class="text-dark">
+            <ModalHeader class="fw-bold">@AddingStatus</ModalHeader>
+            <ModalBody>
+                <h4>@AddingStatusTest</h4>
+            </ModalBody>
+            <ModalFooter>
+                <Button Clicked="@closeOKModal" class="btn btn-success">OK</Button>
+            </ModalFooter>
+        </ModalContent>
+    </Modal>
 </div>
-        
-   
-
-<style>
-    .w-percent-10{
-        width:10%;
-    }
-
-    .w-percent-20 {
-        width: 20%;
-    }
-
-    .w-percent-40 {
-        width: 40%;
-    }
-
-    .vertical-align-center{
-        display:flex;
-        align-items:center;
-
-    }
-</style>
 
 
 
 @code {
-    List<ProductModel> products = new List<ProductModel>();
-    private Modal? modalref;
+    List<ProductModel> products;
+    private Modal? modalref; //adding item modal
     ProductInsert prods = new ProductInsert();
+    bool visible = false;
 
-    Boolean isLoading = true;
+    string AddingStatus = "";
+    string AddingStatusTest = "";
+    Modal OKModalref; //OK Modal
+    bool cancelclosed;
 
+
+
+
+    public Task ClosingOKModal(ModalClosingEventArgs e)
+    {
+        e.Cancel = cancelclosed
+            || e.CloseReason != CloseReason.UserClosing;
+        return Task.CompletedTask;
+
+    }
+
+    public Task closeOKModal()
+    {
+        cancelclosed = false;
+        modalref.Hide();
+        return OKModalref.Hide();
+
+    }
 
 
     protected override async Task OnInitializedAsync()
     {
-        isLoading = true;
+        // isLoading = true;
         await Getdata();
-        isLoading = false;
+        // isLoading = false;
 
     }
-
-
 
     private async Task Getdata()
     {
+        visible = true;
         products = await productservices.GetProducts();
+        visible = false;
 
     }
 
+    private Task ShowAddModal()
+    {
+        return modalref.Show();
+    }
 
+    private Task HideModal()
+    {
+        return modalref.Hide();
+    }
 
-    // private Task ShowAddModal()
-    // {
-    //     return modalref.Show();
-    // }
+    private async void AddNewItem()
+    {
 
-    // private Task HideModal()
-    // {
-    //     return modalref.Hide();
-    // }
+        bool IsAdded = false;
 
-    // private async void AddNewItem()
-    // {
+        IsAdded = await productservices.AddProdctItem(prods);
+        prods.ProductName = string.Empty;
+        prods.ProductPrice = 0;
 
-    //     bool IsAdded = false;
-    //     IsAdded = await productservices.AddProdctItem(prods);
-    //     if (IsAdded)
-    //     {
-    //         await Getdata();
+        if (IsAdded)
+        {
+            AddingStatus = "Added Successfully";
+            AddingStatusTest = "Infomrmation Added Succesfully";
 
-    //     }
+            await Getdata();
+            await OKModalref.Show();
+            
+        }
+        else
+        {
+            AddingStatus = "Added Unsuccessfully";
+            AddingStatusTest = "An Error Occured";
+            await OKModalref.Show();
 
-    // }
+        }
+
+    }
 
 
 

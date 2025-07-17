@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[1.8.0, )"
             },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Blazorise.Icons.FontAwesome": {
               "target": "Package",
               "version": "[1.8.0, )"
@@ -131,6 +135,10 @@
           "targetAlias": "net9.0-ios",
           "dependencies": {
             "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.DataGrid": {
               "target": "Package",
               "version": "[1.8.0, )"
             },
@@ -197,6 +205,10 @@
               "target": "Package",
               "version": "[1.8.0, )"
             },
+            "Blazorise.DataGrid": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
             "Blazorise.Icons.FontAwesome": {
               "target": "Package",
               "version": "[1.8.0, )"
@@ -258,6 +270,10 @@
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
             "Blazorise.Bootstrap5": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Blazorise.DataGrid": {
               "target": "Package",
               "version": "[1.8.0, )"
             },

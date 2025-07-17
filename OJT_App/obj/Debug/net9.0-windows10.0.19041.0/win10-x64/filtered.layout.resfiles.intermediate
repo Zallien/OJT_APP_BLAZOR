@@ -2,6 +2,7 @@ wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.css
 wwwroot\_content\Blazorise.Bootstrap5\blazorise.bootstrap5.min.css
 wwwroot\_content\Blazorise.Bootstrap5\modal.js
 wwwroot\_content\Blazorise.Bootstrap5\tooltip.js
+wwwroot\_content\Blazorise.DataGrid\datagrid.js
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\css\all.css
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\css\all.min.css
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-brands-400.eot
@@ -107,6 +108,7 @@ wwwroot\_content\Blazorise.Icons.FontAwesome\v6\css\all.css.gz
 wwwroot\_content\Blazorise\timePicker.js.gz
 wwwroot\_content\Blazorise\vendors\popper.js.gz
 wwwroot\_content\Blazorise\textEdit.js.gz
+wwwroot\_content\Blazorise.DataGrid\datagrid.js.gz
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-regular-400.svg.gz
 wwwroot\_content\Blazorise.Bootstrap5\tooltip.js.gz
 wwwroot\_content\Blazorise\datePicker.js.gz
@@ -151,6 +153,7 @@ wwwroot\_content\Blazorise.Icons.FontAwesome\v6\css\all.css.br
 wwwroot\_content\Blazorise\timePicker.js.br
 wwwroot\_content\Blazorise\vendors\popper.js.br
 wwwroot\_content\Blazorise\textEdit.js.br
+wwwroot\_content\Blazorise.DataGrid\datagrid.js.br
 wwwroot\_content\Blazorise.Icons.FontAwesome\v5\webfonts\fa-regular-400.svg.br
 wwwroot\_content\Blazorise.Bootstrap5\tooltip.js.br
 wwwroot\_content\Blazorise\datePicker.js.br
