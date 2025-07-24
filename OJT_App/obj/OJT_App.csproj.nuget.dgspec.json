@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\OJT_App.csproj": {}
+    "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\OJT_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\OJT_App.csproj": {
+    "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\OJT_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\OJT_App.csproj",
+        "projectUniqueName": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\OJT_App.csproj",
         "projectName": "OJT_App",
-        "projectPath": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\OJT_App.csproj",
-        "packagesPath": "C:\\Users\\Dell Laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\obj\\",
+        "projectPath": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\OJT_App.csproj",
+        "packagesPath": "C:\\Users\\julli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,6 +121,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.7, 9.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -188,6 +194,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.7, 9.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -256,6 +268,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.7, 9.0.7]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"

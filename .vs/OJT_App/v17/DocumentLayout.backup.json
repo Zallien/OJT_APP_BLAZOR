@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\",
+  "WorkspaceRootPath": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\components\\pages\\iteminventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\components\\pages\\iteminventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\components\\pages\\iteminventory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\service\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\service\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\service\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\service\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\service\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\dell laptop\\desktop\\ojt_app\\ojt_app\\ojt_app\\model\\productinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\service\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\service\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|c:\\users\\julli\\desktop\\ojt_pos\\ojt_posinventory\\ojt_app\\model\\productinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D847BE-D25E-4753-B3EA-E1B6BE433CB5}|OJT_App\\OJT_App.csproj|solutionrelative:ojt_app\\model\\productinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ProductServices.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Service\\ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Service\\ProductServices.cs",
               "RelativeDocumentMoniker": "OJT_App\\Service\\ProductServices.cs",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Service\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Service\\ProductServices.cs",
               "RelativeToolTip": "OJT_App\\Service\\ProductServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAlwG8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T07:06:50.075Z",
               "EditorCaption": ""
@@ -53,66 +53,62 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ProductInsert.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Model\\ProductInsert.cs",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Model\\ProductInsert.cs",
               "RelativeDocumentMoniker": "OJT_App\\Model\\ProductInsert.cs",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Model\\ProductInsert.cs",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Model\\ProductInsert.cs",
               "RelativeToolTip": "OJT_App\\Model\\ProductInsert.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T05:38:48.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T05:38:48.885Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ItemInventory.razor",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\ItemInventory.razor",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Components\\Pages\\ItemInventory.razor",
               "RelativeDocumentMoniker": "OJT_App\\Components\\Pages\\ItemInventory.razor",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Components\\Pages\\ItemInventory.razor*",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Components\\Pages\\ItemInventory.razor*",
               "RelativeToolTip": "OJT_App\\Components\\Pages\\ItemInventory.razor*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAlwMgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-14T07:04:05.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "iProduct.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Service\\iProduct.cs",
-              "RelativeDocumentMoniker": "OJT_App\\Service\\iProduct.cs",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Service\\iProduct.cs",
-              "RelativeToolTip": "OJT_App\\Service\\iProduct.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:06:39.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Model\\ProductModel.cs",
-              "RelativeDocumentMoniker": "OJT_App\\Model\\ProductModel.cs",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\Model\\ProductModel.cs",
-              "RelativeToolTip": "OJT_App\\Model\\ProductModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Title": "iProduct.cs",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Service\\iProduct.cs",
+              "RelativeDocumentMoniker": "OJT_App\\Service\\iProduct.cs",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Service\\iProduct.cs",
+              "RelativeToolTip": "OJT_App\\Service\\iProduct.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:32:52.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T07:06:39.814Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "OJT_App\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\MauiProgram.cs",
-              "RelativeToolTip": "OJT_App\\MauiProgram.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAswAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Model\\ProductModel.cs",
+              "RelativeDocumentMoniker": "OJT_App\\Model\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\Model\\ProductModel.cs",
+              "RelativeToolTip": "OJT_App\\Model\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T07:25:40.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T06:32:52.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "OJT_App\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\MauiProgram.cs",
+              "RelativeToolTip": "OJT_App\\MauiProgram.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T07:25:40.54Z"
             }
           ]
         }

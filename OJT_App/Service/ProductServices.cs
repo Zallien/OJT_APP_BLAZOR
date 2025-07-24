@@ -12,7 +12,8 @@ namespace OJT_App.Service
 {
     internal class ProductServices : iProduct
     {
-        string _baseURL = "http://localhost:5201";
+        //string _baseURL = "http://localhost:5201";
+        string _baseURL = "http://localhost:5166";
         public async Task<List<ProductModel>> GetProducts()
         {
             var products = new List<ProductModel>();
@@ -21,13 +22,16 @@ namespace OJT_App.Service
             {
                 using(var httpclient = new HttpClient())
                 {
-                    string url = $"{_baseURL}/api/Product/GetAllProduct";
+                    //string url = $"{_baseURL}/api/Product/GetAllProduct";
+                    string url = $"{_baseURL}/Product/GetProducts";
                     var apiresponse = await httpclient.GetAsync(url);
 
                     if(apiresponse.StatusCode == HttpStatusCode.OK)
                     {
-                        var responce = apiresponse.Content.ReadAsStringAsync();
-                        products = JsonConvert.DeserializeObject<List<ProductModel>>(responce.Result);
+                        var response = apiresponse.Content.ReadAsStringAsync();
+                        Console.WriteLine(response);
+
+                        products = JsonConvert.DeserializeObject<List<ProductModel>>(response.Result);
                     }
                 }
             }
@@ -51,7 +55,8 @@ namespace OJT_App.Service
 
                 using(var httpclient = new HttpClient())
                 {
-                    string url = $"{_baseURL}/api/Product/InsertProduct";
+                    //string url = $"{_baseURL}/api/Product/InsertProduct";
+                    string url = $"{_baseURL}/Product/AddProduct";
                     var apiresponse = await httpclient.PostAsJsonAsync(url,prod);
 
                     if (apiresponse.StatusCode == HttpStatusCode.OK)
@@ -64,12 +69,45 @@ namespace OJT_App.Service
             }
             catch (Exception e)
             {
-
+                Console.WriteLine(e.ToString());
                 
             }
 
             return ItemAdded;
 
+
+        }
+
+        public async Task<Boolean> DeleteProductItem(Guid productid)
+        {
+
+            bool Isdeleted = false;
+
+            try
+            {
+                using(var httpclient = new HttpClient())
+                {
+                    string url = $"{_baseURL}/Product/DeleteProduct";
+                    var uid = new { ProductID = productid };
+
+                    var apiresponse = await httpclient.PostAsJsonAsync(url, uid);
+
+                    if (apiresponse.StatusCode == HttpStatusCode.OK)
+                    {
+                        Isdeleted = true;
+                    }
+                }
+
+            }
+            catch (Exception e)
+            {
+                
+
+            }
+
+
+
+            return Isdeleted;
 
         }
     }

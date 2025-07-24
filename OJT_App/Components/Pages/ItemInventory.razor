@@ -10,15 +10,43 @@
             <TextEdit Placeholder="Search.." class="w-50" />
         </Field>
 
-        <div class="mt-2">
-            <Table>
+        <div class="mt-2 w-100 bg-light">
+        @if (isLoading)
+        {
+            <SkeletonTable Rows="@isLoadingrow" Columns="@isLoadingcolumn" class="w-100 overflow-auto"
+                            Animation="SkeletonAnimation.Wave"/>
+        }
+        else
+        {
+            <Table class="w-100 h-100 table table-responsive" >
+                <TableHeader>
+                    <TableRow>
+                        <TableHeaderCell class="w-50">Product Name</TableHeaderCell>
+                        <TableHeaderCell class="w-20">Product Price</TableHeaderCell>
+                        <TableHeaderCell class="w-auto">Actions</TableHeaderCell>
+                    </TableRow>
+                </TableHeader>
 
+                <TableBody>
+                    @foreach (ProductModel item in products)
+                    {
+                        <TableRow class="py-0">
+                            <TableRowCell>@item.Productname</TableRowCell>
+                            <TableRowCell>P @item.price</TableRowCell>
+                            <TableRowCell>
+                                <Button Color="Color.Primary" Size="Size.Small">Edit</Button>
+                                <Button Color="Color.Danger" Size="Size.Small" @onclick="() => DeleteProduct(item.Id)">Delete</Button>
+                            </TableRowCell>
+                        </TableRow>
+                    }
+                </TableBody>
             </Table>
-        </div>
+        }
+    </div>
 
     
 
-
+    @* Adding Items Modal *@
     <Modal @ref="modalref">
         <ModalContent Centered>
             <ModalHeader>
@@ -41,6 +69,8 @@
         </ModalContent>
     </Modal>
 
+    
+    @* Confirmation Modal *@
     <Modal Closing="@ClosingOKModal" @ref="OKModalref" Centered>
         <ModalContent Centered class="text-dark">
             <ModalHeader class="fw-bold">@AddingStatus</ModalHeader>
@@ -52,7 +82,17 @@
             </ModalFooter>
         </ModalContent>
     </Modal>
+
+
 </div>
+
+<style>
+    .w-20{
+        width:20%;
+    }
+    
+</style>
+
 
 
 
@@ -61,11 +101,16 @@
     private Modal? modalref; //adding item modal
     ProductInsert prods = new ProductInsert();
     bool visible = false;
+    private bool isLoading = true;
+
 
     string AddingStatus = "";
     string AddingStatusTest = "";
     Modal OKModalref; //OK Modal
     bool cancelclosed;
+
+    int isLoadingrow = 20;
+    int isLoadingcolumn = 3;
 
 
 
@@ -91,15 +136,13 @@
     {
         // isLoading = true;
         await Getdata();
-        // isLoading = false;
 
     }
 
     private async Task Getdata()
     {
-        visible = true;
         products = await productservices.GetProducts();
-        visible = false;
+        isLoading = false;
 
     }
 
@@ -129,7 +172,7 @@
 
             await Getdata();
             await OKModalref.Show();
-            
+
         }
         else
         {
@@ -138,6 +181,34 @@
             await OKModalref.Show();
 
         }
+
+    }
+
+    private async void DeleteProduct(Guid ProductId)
+    {
+        
+        bool IsDeleted = false;
+
+        IsDeleted = await productservices.DeleteProductItem(ProductId);
+
+        if (IsDeleted)
+        {
+            AddingStatus = "Deleted Successfully";
+            AddingStatusTest = "Product Deleted Successfully";
+
+            await OKModalref.Show();
+            await Getdata();
+
+        }
+        else
+        {
+            AddingStatus = "Deleted Unsuccessfully";
+            AddingStatusTest = "An Error Occured";
+            await OKModalref.Show();
+
+        }
+        
+
 
     }
 

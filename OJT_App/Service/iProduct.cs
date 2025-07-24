@@ -11,6 +11,7 @@ namespace OJT_App.Service
     {
         Task<List<ProductModel>> GetProducts();
         Task<Boolean> AddProdctItem(ProductInsert prod);
+        Task<Boolean> DeleteProductItem(Guid Prod);
 
 
     }

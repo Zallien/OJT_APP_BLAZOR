@@ -1,55 +1,55 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OJT_App.styles.css",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\OJT_App.styles.css",
       "PackagePath": "staticwebassets\\OJT_App.styles.css"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\arrrow.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\arrrow.png",
       "PackagePath": "staticwebassets\\Images\\arrrow.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\grocerystock.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\grocerystock.png",
       "PackagePath": "staticwebassets\\Images\\grocerystock.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\home.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\home.png",
       "PackagePath": "staticwebassets\\Images\\home.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\homelogo.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\homelogo.png",
       "PackagePath": "staticwebassets\\Images\\homelogo.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\homelopgo1.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\homelopgo1.png",
       "PackagePath": "staticwebassets\\Images\\homelopgo1.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\northbay.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\northbay.png",
       "PackagePath": "staticwebassets\\Images\\northbay.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\readstock.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\readstock.png",
       "PackagePath": "staticwebassets\\Images\\readstock.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\Images\\transparentlogo.png",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\Images\\transparentlogo.png",
       "PackagePath": "staticwebassets\\Images\\transparentlogo.png"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell Laptop\\Desktop\\OJT_App\\OJT_App\\OJT_App\\wwwroot\\index.html",
+      "Id": "C:\\Users\\julli\\Desktop\\OJT_POS\\OJT_POSInventory\\OJT_App\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
